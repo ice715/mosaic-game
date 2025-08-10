@@ -1,10 +1,10 @@
-# Mosaic Game (モザイクゲーム) Python版
+# Mosaic (モザイク) Python版
 
 ## 概要
 
-このプロジェクトは、ボードゲーム「モザイク」のルールをPythonとpygameで再現した（非公式）GUIゲームです。  
+このプロジェクトは、ボードゲーム「Mosaic」のルールをPythonとpygameで再現した（非公式）GUIゲームです。  
 exeファイルでの実行も可能です。(bin/main.exe)
-元ゲームは、MOSAICボードゲームの<span style="text-transform:none;">[公式HP](https://mosaic.games/)</span>をご確認ください。
+元ゲームは、MOSAICの<span style="text-transform:none;">[公式HP](https://mosaic.games/)</span>をご確認ください。
 ---
 
 ## 遊び方

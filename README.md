@@ -2,10 +2,9 @@
 
 ## 概要
 
-このプロジェクトは、ボードゲーム「モザイク」のルールをPythonとpygameで再現したGUIゲームです。  
+このプロジェクトは、ボードゲーム「モザイク」のルールをPythonとpygameで再現した（非公式）GUIゲームです。  
 exeファイルでの実行も可能です。(bin/main.exe)
-元ゲームは、MOSAICボードゲーム(以下リンク)をご参照ください。
- - https://mosaic.games/
+元ゲームは、MOSAICボードゲームの<span style="text-transform:none;">[公式HP](https://mosaic.games/)</span>をご確認ください。
 ---
 
 ## 遊び方
@@ -22,7 +21,8 @@ exeファイルでの実行も可能です。(bin/main.exe)
 自動的にコマが置かれたことで、新しい正方形ができ、その正方形の３つまたは４つが同じ色で占められていた場合、同じように自動的にコマが置かれます。こうして連鎖反応的にコマが積み上がっていきます。積み上がるコマは、手番プレイヤーのコマだけでなく、相手プレイヤーのコマである場合もあります。
 こうして交互にコマを置いて行って、先に自分のコマをすべて置き終えた人が勝ちです。
 
-公式: https://mosaic.games/how-to-play/
+<span style="text-transform:none;">[公式HP](https://mosaic.games/how-to-play/)</span>
+
 ---
 
 ## 動作環境

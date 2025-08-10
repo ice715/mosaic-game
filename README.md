@@ -3,9 +3,9 @@
 ## 概要
 
 このプロジェクトは、ボードゲーム「モザイク」のルールをPythonとpygameで再現したGUIゲームです。  
-多層の盤面にコマを置き、正方形の組み合わせによる自動配置や連鎖を楽しめます。
-
-元ゲームは、MOSAICボードゲーム(https://mosaic.games/)をご参照ください。
+exeファイルでの実行も可能です。(bin/main.exe)
+元ゲームは、MOSAICボードゲーム(以下リンク)をご参照ください。
+ - https://mosaic.games/
 ---
 
 ## 遊び方
@@ -45,7 +45,6 @@
    ```
 
 ## 使い方
-
 マウスクリックで、自分のターンにコマを配置
 配置可能なセルのみ選択可能（上層の駒は下層の4マスが埋まっている中央に置ける）
 先に自分のコマをすべて置き切ったプレイヤーが勝利
@@ -54,5 +53,12 @@
 main.py : ゲームのエントリーポイント、描画とイベント処理
 game_logic.py : ゲームのルールと状態管理のロジック
 README.md : 本ファイル
+
+## EXE化
+PyInstallerを使ってexe化可能です。
+```bash
+    pip install pyinstaller
+    pyinstaller --onefile --windowed main.py
+```
 
 END

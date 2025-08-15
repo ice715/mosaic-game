@@ -84,11 +84,11 @@ class MosaicGame:
             return False
 
         self.boards[level][y][x].append(player)
-        if not auto:
-            self.pieces_left[player] -= 1
-            if self.pieces_left[player] == 0:
-                self.winner = player
-                return True
+        # if not auto:
+        self.pieces_left[player] -= 1
+        if self.pieces_left[player] == 0:
+            self.winner = player
+            return True
 
         self._check_and_auto_place(level)
 

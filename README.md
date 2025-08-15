@@ -4,7 +4,10 @@
 
 このプロジェクトは、ボードゲーム「Mosaic」のルールをPythonとpygameで再現した（非公式）GUIゲームです。  
 exeファイルでの実行も可能です。(bin/main.exe)
+
 元ゲームは、MOSAICの<span style="text-transform:none;">[公式HP](https://mosaic.games/)</span>をご確認ください。
+
+<img src="demo.gif" width=400>
 ---
 
 ## 遊び方
